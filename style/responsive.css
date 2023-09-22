@@ -4,14 +4,33 @@
         flex-direction: column;
     }
 
+    main .filmeprincipal .container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .filmeprincipal .titulo {
+        font-size: 28px;
+    }
+
+    .filmeprincipal .descricao {
+        font-size: 18px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
     .botao {
         margin-top: 5px;
-        width: 300px;
-    }
-}
-
-@media screen and (min-width:1000px) {
-    .descricao {
-        width: 50%;
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
     }
 }
