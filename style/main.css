@@ -22,11 +22,11 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right: 30px;
+
 }
 
 header .logo {
-    margin-left: 30px;
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Bebas Neue', sans-serif;
     font-size: 80px;
@@ -59,13 +59,11 @@ header nav a:hover {
 .filmeprincipal .descricao {
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 10px;
 }
 
 .filmeprincipal .titulo {
     margin-top: 5%;
     font-size: 80px;
-    margin-left: 10px;
 }
 
 .botao {
@@ -74,7 +72,6 @@ header nav a:hover {
     color: white;
     padding: 15px;
     margin-right: 15px;
-    margin-left: 10px;
     font-size: 30px;
     font-family: 'Bebas neue', sans-serif;
     cursor: pointer;
@@ -84,4 +81,27 @@ header nav a:hover {
 .botao:hover{
     background-color: white;
     color: black;
+}
+
+.botao i {
+    margin-right: 10px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filmeprincipal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrossel-filmes {
+    margin-top: 10px;
 }
